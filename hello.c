@@ -1,6 +1,12 @@
 #include <stdio.h>
-
-int main(void)
+  
+int main()
 {
-    printf("hello, world\n");
+    char name[20];
+    printf("Enter name: ");
+  
+    // user input will be taken here
+    scanf("%s", name);
+    printf("Your name is %s.", name);
+    return 0;
 }
