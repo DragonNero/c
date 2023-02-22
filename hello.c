@@ -7,6 +7,6 @@ int main()
   
     // user input will be taken here
     scanf("%s", name);
-    printf("Your name is %s.", name);
+    printf("Your name is %s.", name, "%%");
     return 0;
 }
