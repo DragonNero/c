@@ -1,4 +1,4 @@
-
+// Implements a list of numbers with an array of dynamic size
 #include <stdio.h>
 #include <stdlib.h>
 
